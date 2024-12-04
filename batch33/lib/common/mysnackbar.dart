@@ -9,6 +9,8 @@ class mysnackbar extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Colors.blue,
         title: const Text('SnackBarView'),
+
+        /////
         centerTitle: true,
         elevation: 0,
       ),
