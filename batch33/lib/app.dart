@@ -1,6 +1,7 @@
 import 'package:batch33/class_view.dart';
-import 'package:batch33/common/mysnackbar.dart';
-import 'package:batch33/snack_bar_view.dart';
+import 'package:batch33/class_work_view.dart';
+import 'package:batch33/simple_grid_view.dart';
+import 'package:batch33/simple_list_view.dart';
 
 // import 'package:batch33/view/column-row.dart';
 // import 'package:batch33/view/container.dart';
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: ClassView(),
+      home: SimpleListView(),
     );
   }
 }
