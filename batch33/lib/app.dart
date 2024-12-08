@@ -1,6 +1,4 @@
-import 'package:batch33/class_view.dart';
-import 'package:batch33/class_work_view.dart';
-import 'package:batch33/simple_grid_view.dart';
+import 'package:batch33/card_view.dart';
 import 'package:batch33/simple_list_view.dart';
 
 // import 'package:batch33/view/column-row.dart';
@@ -20,7 +18,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: SimpleListView(),
+      home: CardView(),
     );
   }
 }
