@@ -1,5 +1,4 @@
 import 'package:batch33/card_view.dart';
-import 'package:batch33/simple_list_view.dart';
 
 // import 'package:batch33/view/column-row.dart';
 // import 'package:batch33/view/container.dart';
