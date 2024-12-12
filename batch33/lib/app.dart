@@ -1,4 +1,5 @@
 import 'package:batch33/card_view.dart';
+import 'package:batch33/list_and_grid_view.dart';
 
 // import 'package:batch33/view/column-row.dart';
 // import 'package:batch33/view/container.dart';
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: CardView(),
+      home: DataTableScreen(),
     );
   }
 }
