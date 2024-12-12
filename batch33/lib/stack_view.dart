@@ -37,9 +37,8 @@ class StackView extends StatelessWidget {
             bottom: 1,
             left: 1,
             child: SizedBox(
-                height: 100,
-                width: 100,
                 child: CircleAvatar(
+                    radius: 100,
                     backgroundImage: AssetImage('assets/images/mario.jpeg')))),
       ],
     )));
